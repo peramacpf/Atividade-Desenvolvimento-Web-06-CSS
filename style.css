@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #034159;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: #ffff;
+    align-self: center;
+    margin-top: 15px;
+    text-decoration: solid;
+}
+
+header nav ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li a{
+    color: #0CF25D;
+    font-size: 15pt;
+}
+
+header nav ul li a:hover {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+main {
+    width: 960px;
+    height: 1200px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: grid;
+
+}
+
+#cont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1 {
+    width: 450px;
+    height: 550px;
+    /* border: 2px solid white; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s2 {
+    width: 920px;
+    height: 550px;
+    /* border: 2px solid white; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+
+#imagem {
+    height: 200px;
+}
+
+#imagem2 {
+    height: 290px;
+    width: 500px;
+}
+
+footer {
+    width: 960px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+}
+
+.cont_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes_sociais {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.redes_sociais a {
+    color: white;
+}
+
+.redes_sociais a:hover {
+    color: rgb(0, 0, 0)
+}
